@@ -1,0 +1,19 @@
+{
+    "login": "Login",
+    "username": "username",
+    "password": "password",
+    "history_call": "History Call",
+    "host": "Host on duty",
+    "booking_car":"Booking car",
+    "note":"note..",
+    "membership_information": "Membership information",
+    "history_booking": "History booking",
+    "voucher": "Voucher",
+    "future_date_required": "You cannot choose a date in the past",
+    "login_success": "Login success",
+    "pyramid_point": "Pyramid point",
+    "notification": "Notification",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "day_before_yesterday": "The day before yesterday"
+}

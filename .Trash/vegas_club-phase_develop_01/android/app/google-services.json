@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1019151961540",
+    "project_id": "e-vegas",
+    "storage_bucket": "e-vegas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019151961540:android:77d889b0a0956af573e891",
+        "android_client_info": {
+          "package_name": "com.trivietjsc.vcms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019151961540-8op6tu2jftrt69og17iecanu4rcp62mn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuMJqNX-7mUAg4wXOOdSFvQzMKpe2Pu3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019151961540-8op6tu2jftrt69og17iecanu4rcp62mn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1019151961540-sg2ov1ojrit17ojsjp36vfgj47p8biis.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.trivietjsc.vcms"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

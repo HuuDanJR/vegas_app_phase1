@@ -1,0 +1,20 @@
+{
+    "login": "Đăng nhập",
+    "username": "Tên đăng nhập",
+    "password": "Mật khẩu",
+    "history_call": "Lịch sử cuộc gọi",
+    "host": "Liên hệ - hỗ trợ",
+    "booking_car":"Đặt xe",
+    "note":"Ghi chú...",
+    "membership_information": "Thông tin tài khoản",
+    "history_booking": "Lịch sử đặt xe",
+    "voucher": "Phiếu giảm giá",
+    "future_date_required": "Bạn không thể chọn ngày trong quá khứ",
+    "login_success": "Bạn không thể chọn ngày trong quá khứ",
+    "pyramid_point": "Điểm kim tự tháp",
+    "notification": "Thông báo",
+    "today": "Hôm nay",
+    "yesterday": "Hôm qua",
+    "day_before_yesterday": "Hôm kia"
+    
+}

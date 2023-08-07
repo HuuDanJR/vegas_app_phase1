@@ -1,0 +1,10 @@
+targets:
+  $default:
+    builders:
+      fast_i18n:
+        options:
+          input_directory: assets/i18n
+          output_directory: lib/i18n_gen
+          base_locale: i18n_en
+          maps:
+            - locales

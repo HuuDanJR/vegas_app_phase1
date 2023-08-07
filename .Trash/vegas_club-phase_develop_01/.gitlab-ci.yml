@@ -1,0 +1,39 @@
+image: ghcr.io/cirruslabs/flutter
+stages:
+  - lints
+  - tests
+  - build
+  - deploy
+unit tests:
+  stage: tests
+  script:
+    - flutter test --coverage ./lib
+    - lcov -r coverage/lcov.info '*/__test*__/*' -o coverage/lcov_cleaned.info
+    - genhtml coverage/lcov_cleaned.info --output=coverage
+  tags:
+    - flutter
+  artifacts:
+    paths:
+      - coverage
+android:
+  stage: build
+  script:
+    - flutter build apk --flavor prod -t lib/main.dart --build-number ${CI_JOB_ID:0:8}
+    - flutter build appbundle apk --flavor prod -t lib/main.dart --build-number ${CI_JOB_ID:0:8}
+    - sudo bundle install
+    - cd android && bundle exec fastlane move_files
+  artifacts:
+    paths:
+      - build/artifacts/
+  tags:
+    - flutter
+
+  playstore:
+  stage: deploy
+  dependencies:
+
+    - android
+  script:
+    - cd android && bundle exec fastlane playstore_internal_release
+  tags:
+    - flutter

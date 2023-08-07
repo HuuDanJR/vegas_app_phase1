@@ -1,0 +1,12 @@
+{
+    "defaultLocale": "vi-VN",
+    "locales": [
+        "vi-VN"
+    ],
+    "localePath": "i18n",
+    "generatedPath": "lib/generated",
+    "ltr": [
+        "vi-VN"
+    ],
+    "rtl": []
+}
